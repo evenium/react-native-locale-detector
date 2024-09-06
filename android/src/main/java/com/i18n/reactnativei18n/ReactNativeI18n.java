@@ -19,8 +19,7 @@ public class ReactNativeI18n implements ReactPackage {
         modules.add(new ReactNativeI18nLocale(reactContext));
         return modules;
     }
-
-    @Override
+    
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
